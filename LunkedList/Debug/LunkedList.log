@@ -1,0 +1,19 @@
+﻿Build started 2/2/2015 8:52:01 PM.
+     1>Project "C:\Users\zachary.breman\Desktop\LunkedList\LunkedList\LunkedList.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\zachary.breman\desktop\lunkedlist\lunkedlist\list.h(23): warning C4812: obsolete declaration style: please use 'Lunk::List<T>::List' instead
+     1>c:\users\zachary.breman\desktop\lunkedlist\lunkedlist\list.h(23): warning C4812: obsolete declaration style: please use 'Lunk::List<Lunk::Vector<int>>::List' instead
+                 c:\users\zachary.breman\desktop\lunkedlist\lunkedlist\list.h(23) : while compiling class template member function 'Lunk::List<Lunk::Vector<int>>::List(void)'
+                 c:\users\zachary.breman\desktop\lunkedlist\lunkedlist\main.cpp(21) : see reference to function template instantiation 'Lunk::List<Lunk::Vector<int>>::List(void)' being compiled
+                 c:\users\zachary.breman\desktop\lunkedlist\lunkedlist\main.cpp(21) : see reference to class template instantiation 'Lunk::List<Lunk::Vector<int>>' being compiled
+     1>c:\users\zachary.breman\desktop\lunkedlist\lunkedlist\list.h(195): warning C4715: 'Lunk::List<Lunk::Vector<int> >::get' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zachary.breman\Desktop\LunkedList\Debug\LunkedList.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\zachary.breman\Desktop\LunkedList\Debug\LunkedList.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zachary.breman\Desktop\LunkedList\Debug\LunkedList.lib" /MACHINE:X86 Debug\main.obj
+         LunkedList.vcxproj -> C:\Users\zachary.breman\Desktop\LunkedList\Debug\LunkedList.exe
+     1>Done Building Project "C:\Users\zachary.breman\Desktop\LunkedList\LunkedList\LunkedList.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
